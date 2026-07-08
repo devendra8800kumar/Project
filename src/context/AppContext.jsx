@@ -4,12 +4,15 @@ import { create } from "axios";
 
 export const AppContext=createContext()
 
+const currencySymbol = "₹"
+
 const AppContextProvider=(props)=>{
     const value={
-        doctors
+        doctors,
+        currencySymbol
     }
 
-    return(
+    return (
         <AppContext.Provider value={value}>
             {props.children}
         </AppContext.Provider>
