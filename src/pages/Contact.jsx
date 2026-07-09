@@ -11,19 +11,16 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Section */}
-      <div className='my-10 flex flex-col md:flex-row gap-10 mb-28 text-sm'>
-
+      <div className='my-10 flex flex-col md:flex-row items-center gap-10 mb-28 text-sm'>
         {/* Image */}
         <img
-          className='w-full md:max-w-[360px]'
-          src={assets.contact_image}
-          alt=""
-        />
+  className='w-full md:max-w-[400px]'
+  src={assets.contact_image}
+  alt=""
+/>
 
-        {/* Contact Details */}
-        <div className='flex flex-col justify-center items-start gap-6'>
-
+       
+      <div className='flex flex-col justify-center items-start gap-6 md:w-2/5'>
           <p className='font-semibold text-lg text-gray-600'>
             OUR OFFICE
           </p>
