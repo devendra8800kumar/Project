@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 @theme {
-  --color-primary: #5f6fff;
+  --color-primary: #0A4FAF;
 }
 
 *{
@@ -15,5 +15,11 @@
 
 ::-webkit-scrollbar{
   @apply hidden
+}
+
+@media (max-width:740px){
+  .active p{
+    @apply text-white bg-primary
+  }
 }
 
